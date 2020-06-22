@@ -64,8 +64,7 @@ public class Main {
 		try {
 
 			//String content = "This is the content to write into file\n";
-String fileName = "/Users/manalithakkar/Google Drive/StockToBuy/stocksToBuy"+LocalDateTime.now()+".txt";
-//String fileName = "/Users/manalithakkar/Documents/temp/stocksToBuy"+LocalDateTime.now()+".txt";
+String fileName = "/Google Drive/StockToBuy/stocksToBuy"+LocalDateTime.now()+".txt";
 try {
 
     File file = new File(fileName);
